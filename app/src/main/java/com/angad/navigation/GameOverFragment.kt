@@ -26,7 +26,7 @@ class GameOverFragment : Fragment() {
 
 //        This logic move to the gameFragment on clicking the tryAgain button
         binding.tryAgainButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_gameOverFragment2_to_gameFragment)
+            view.findNavController().navigate(GameOverFragmentDirections.actionGameOverFragment2ToGameFragment())
         }
         return binding.root
 

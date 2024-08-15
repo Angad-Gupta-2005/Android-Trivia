@@ -4,7 +4,7 @@ plugins {
 
 //    id("kotlin-android-extensions")
     id("kotlin-parcelize")
-    id("androidx.navigation.safeargs.kotlin") version "2.7.0"
+    id("androidx.navigation.safeargs.kotlin") version "2.7.7"
 }
 
 android {
@@ -50,10 +50,10 @@ android {
 
 dependencies {
 
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.0")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.0")
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
+    implementation(libs.kotlin.stdlib)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
