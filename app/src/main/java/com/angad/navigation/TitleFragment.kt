@@ -37,12 +37,14 @@ class TitleFragment : Fragment() {
         return binding.root
     }
 
+//    This method create the overflow menu bar i.e., about
     @Deprecated("Deprecated in Java")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.overflow_menu, menu)
     }
 
+//    This method open the About Fragment on clicking the About item in the overflow_menu
     @Deprecated("Deprecated in Java")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return NavigationUI.onNavDestinationSelected(
