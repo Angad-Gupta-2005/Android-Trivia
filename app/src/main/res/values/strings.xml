@@ -36,4 +36,6 @@
     <string name="sharing_not_available">Sharing Not Available</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_button">Play</string>
+    <string name="next_match">Next Match</string>
 </resources>

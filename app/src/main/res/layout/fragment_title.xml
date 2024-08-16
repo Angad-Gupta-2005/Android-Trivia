@@ -20,7 +20,7 @@
             android:layout_marginEnd="@dimen/horizontal_margin"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
-            android:text="Play"
+            android:text="@string/play_button"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/button_text_size"
             android:textStyle="bold"
