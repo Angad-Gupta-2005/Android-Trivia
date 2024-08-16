@@ -7,6 +7,7 @@
     android:layout_height="192dp"
     android:background="?attr/colorPrimaryDark"
     android:padding="16dp"
+    android:layout_marginTop="@dimen/margin85"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView

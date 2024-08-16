@@ -1,5 +1,3 @@
-@file:Suppress("DEPRECATION")
-
 package com.angad.navigation
 
 import android.os.Bundle
@@ -11,12 +9,12 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.angad.navigation.databinding.FragmentTitleBinding
 
 
+@Suppress("DEPRECATION")
 class TitleFragment : Fragment() {
 
     override fun onCreateView(
@@ -45,6 +43,7 @@ class TitleFragment : Fragment() {
     }
 
 //    This method open the About Fragment on clicking the About item in the overflow_menu
+
     @Deprecated("Deprecated in Java")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return NavigationUI.onNavDestinationSelected(

@@ -28,4 +28,5 @@
     <dimen name="game_over_height">350dp</dimen>
     <dimen name="margin150">150dp</dimen>
     <dimen name="padding15">15dp</dimen>
+    <dimen name="margin85">85dp</dimen>
 </resources>

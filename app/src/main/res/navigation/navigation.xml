@@ -74,9 +74,17 @@
             android:name="numCorrect"
             app:argType="integer" />
     </fragment>
+
+<!--    ********************************************************   -->
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.angad.navigation.AboutFragment"
         android:label="@string/title_about_trivia"
         tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.angad.navigation.RulesFragment"
+        android:label="fragment_rules"
+        tools:layout="@layout/fragment_rules" />
 </navigation>
